@@ -1,4 +1,4 @@
-package at.dalex.chunk5.land;
+package at.dalex.chunk5.manager;
 
 import at.dalex.chunk5.Chunk5;
 import org.bukkit.Chunk;

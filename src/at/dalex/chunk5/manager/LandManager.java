@@ -1,11 +1,9 @@
-package at.dalex.chunk5.land;
+package at.dalex.chunk5.manager;
 
 import at.dalex.chunk5.config.Config;
 import java.util.ArrayList;
 import java.util.UUID;
 import org.bukkit.Chunk;
-import org.bukkit.Location;
-import org.bukkit.World;
 import org.bukkit.entity.Player;
 
 public class LandManager {

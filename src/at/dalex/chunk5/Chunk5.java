@@ -1,6 +1,9 @@
 package at.dalex.chunk5;
 
+import at.dalex.chunk5.commands.CMDS;
 import at.dalex.chunk5.config.Config;
+import at.dalex.chunk5.listeners.JoinListener;
+import at.dalex.chunk5.listeners.ProtectionListener;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Chunk5 extends JavaPlugin {
@@ -26,7 +29,7 @@ public class Chunk5 extends JavaPlugin {
     }
 
     private void regCMDS() {
-        getCommand("land").setExecutor(new CMDS());
+        getCommand("manager").setExecutor(new CMDS());
     }
 
     private void regListeners() {

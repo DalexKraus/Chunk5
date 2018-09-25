@@ -1,4 +1,4 @@
-package at.dalex.chunk5.land;
+package at.dalex.chunk5.manager;
 
 import java.util.ArrayList;
 import java.util.UUID;

@@ -1,5 +1,7 @@
 package at.dalex.chunk5.config;
 
+import at.dalex.chunk5.manager.Land;
+import at.dalex.chunk5.manager.LandManager;
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 import org.bukkit.Location;
